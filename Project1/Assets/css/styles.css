@@ -187,35 +187,29 @@ nav ul li a:hover {
 .container h2 {
   text-align: center;
   padding-top: 30px;
-}
-
-.tabel1 {
-  margin-top: 30px;
+  padding-bottom: 50px;
 }
 
 .am-kiri img {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 100px;
   margin-right: 20px;
-  margin-bottomt: 20px;
-  width: 470px;
-  height: 300px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 350px;
   border-radius: 5%;
   float: left;
 }
 
-.am-kanan {
-  float: right;
-  margin-right: 20px;
+article {
   margin-left: 20px;
-  margin-top: 42px;
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
+
 /* Akhir About Me */
 
 /* Awal Project */
 #project {
-  margin-top: 400px;
+  margin-top: 80px;
   font-family: "Source Sans Pro", sans-serif;
   background: linear-gradient(0deg, rgb(0, 177, 195) 0%, rgb(164, 212, 160) 80%);
 }
@@ -308,7 +302,7 @@ nav ul li a:hover {
 /* responsive */
 @media screen and (min-width: 550px) {
   #project {
-    margin-top: 750px;
+    margin-top: 50px;
   }
 
   .card {
@@ -318,7 +312,7 @@ nav ul li a:hover {
 
 @media screen and (min-width: 768px) {
   #project {
-    margin-top: 350px;
+    margin-top: 120px;
   }
   .card {
     width: 220px;
@@ -363,6 +357,7 @@ input::placeholder {
 button {
   width: 30%;
   padding: 10px;
+  margin-left: 20px;
   border: none;
   border-radius: 5px;
   background: #1c87c9;
@@ -388,15 +383,15 @@ button:hover {
 }
 /* Akhir Contact */
 
+/* Awal Footer */
 footer {
   margin-top: 70px;
   background-color: RGB(208, 240, 192);
 }
 
-footer .akhir {
+.akhir {
   font-size: 20px;
   text-align: justify;
-  margin-left: 20px;
 }
 
 footer a {
